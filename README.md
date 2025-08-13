@@ -139,6 +139,30 @@ You need to run both the backend and frontend servers simultaneously.
       flutter run
       ```
 
+## Screenshots
+
+Here are screenshots showing the application's user interface and functionality:
+
+### Home Page
+
+![Home Page](src/image/home_page.png)
+
+### Image Source Selection
+
+![Image Source Selection](src/image/Image_source.png)
+
+### Choose Image
+
+![Choose Image](src/image/choose_image.png)
+
+### Processing
+
+![Processing](src/image/processing.png)
+
+### Solution Display
+
+![Answer](src/image/answer.png)
+
 ## Project Structure
 
 ```
@@ -149,10 +173,16 @@ You need to run both the backend and frontend servers simultaneously.
 │   │   ├── requirements.txt        # Python dependencies
 │   │   ├── firebase_credentials.json # Firebase service account key
 │   │   └── .env                    # For API keys
-│   └── frontend/
-│       ├── lib/
-│       │   └── main.dart           # Main Flutter application code
-│       └── pubspec.yaml            # Flutter dependencies
+│   ├── frontend/
+│   │   ├── lib/
+│   │   │   └── main.dart           # Main Flutter application code
+│   │   └── pubspec.yaml            # Flutter dependencies
+│   └── image/
+│       ├── answer.png              # Screenshot of solution display
+│       ├── choose_image.png        # Screenshot of image selection
+│       ├── home_page.png           # Screenshot of home page
+│       ├── Image_source.png        # Screenshot of image source selection
+│       └── processing.png          # Screenshot of processing state
 ├── behavioural_questions.md        # Responses to behavioural questions
 └── README.md                       # This file
 ```
