@@ -2,3 +2,4 @@
 # Firebase credentials
 ./firebase_credentials.json
 
+.env
